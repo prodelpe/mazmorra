@@ -1,0 +1,10 @@
+PREGUNTES CARLOS
+
+Qu� era $_SESSION['hash']?
+A la classe User -> $_SESSION['hash'] = sha1($return['id'] . $this->encryptKey);
+
+Per què poses el logout com una funció a class quan es molt fàcil posar-ho tot a action-logout.php?
+
+Com funciona la classe password? Sembla que funcioni en tot moment??
+
+No es pot fer tot amb variables de sessió?? Cada vegada que es fa un session_start() s'ho carrega tot?

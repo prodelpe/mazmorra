@@ -1,0 +1,189 @@
+body {
+    padding-top: 4.5rem;
+}
+
+.top20 {
+    padding-top: 20px;
+}
+
+.bottom20 {
+    padding-bottom: 20px;
+}
+
+.mtop20 {
+    margin-top: 20px;
+}
+
+.mbottom20 {
+    margin-bottom: 20px;
+}
+
+.top40 {
+    padding-top: 40px;
+}
+
+.bottom40 {
+    padding-bottom: 40px;
+}
+
+.top80 {
+    padding-top: 80px;
+}
+
+.bottom80 {
+    padding-bottom: 80px;
+}
+
+a.navbar-brand {
+    font-family: Arvo;
+    font-size: 2em;
+}
+
+/* indez */
+main .jumbotron {
+    background-image: url("../img/banner.jpg");
+    background-position: center; 
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+main .jumbotron h1 {
+    font-family: Lobster;
+}
+
+main .jumbotron p {
+    font-size: 18px !important;
+}
+
+.best {
+    text-align: center;
+}
+
+/* My Account */
+/* Agafat de GetBootstrap 4 */
+
+.feather {
+    width: 16px;
+    height: 16px;
+    vertical-align: text-bottom;
+}
+
+/* My Biblio */
+
+#searchForm {
+    margin-bottom: 20px;
+}
+
+.ficha {
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.ficha {
+    border: 1px dotted rgba(0,0,0,.125);
+}
+
+.ficha .imagen {
+    text-align: center;
+}
+
+.ficha .botones {
+    margin: 5px 0;
+    /*    font-size: 12px;*/
+}
+
+#prev-next a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+#prev-next {
+    margin-top: 20px;
+    text-align: right;
+}
+
+#prev-next a:hover {
+    background-color: #007bff;
+    color: #f1f1f1;
+}
+
+#prev-next .previous, #prev-next .next {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+/* My Ficha */
+.card {
+    padding: 10px 20px;
+}
+
+.description {
+    padding-top: 20px;
+}
+
+/* Loader */
+.loader {
+    border: 10px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 10px solid #007bff;
+    width: 50px;
+    height: 50px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Stars rating */
+.checked {
+    color: orange;
+}
+
+.fa-star {
+    font-size: 22px !important;
+}
+
+/* Paginador Biblioteca */
+.paginator {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.paginatorNumber {
+    padding: 5px 10px;
+    border: 1px solid #007bff;
+    margin: 2px;
+}
+
+/* Reviews */
+.reviewRow {
+    margin-bottom: 10px;
+    border: 1px solid #e1e1e1;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* Catalog */
+
+.alfabeto li {
+/*    border: 1px solid #007bff;
+    margin: 2px;*/
+}
+
+.navbar-nav {
+    flex-direction: row;
+}
+
+.nota pre {
+    color: red;
+}
