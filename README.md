@@ -1,5 +1,5 @@
 # La Mazmorra del Androide
-La Mazmorra del Androide fue un proyecto realizado para practicar la realización de un pequeñoi proyecto PHP desde cero.
+La Mazmorra del Androide fue un proyecto realizado para practicar la realización de una pequeña web app PHP desde cero.
 
 Se trata de una aplicación web en la que el usuario puede crearse su propia biblioteca a partir de libros de Google Books. 
 Una vez guardados en su biblioteca es posible puntuarlos y añadir una crítica.
